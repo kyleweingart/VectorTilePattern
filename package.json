@@ -22,9 +22,13 @@
   },
   "homepage": "https://github.com/kyleweingart/VectorTilePattern#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
     "mapbox-gl": "^0.50.0",
     "mapbox-to-ol-style": "^3.4.3",
     "ol": "^5.2.0",
-    "ol-mapbox-style": "^3.1.0"
+    "ol-mapbox-style": "^3.1.0",
+    "path": "^0.12.7"
   }
 }
