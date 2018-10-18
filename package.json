@@ -1,0 +1,29 @@
+{
+  "name": "vectortilepattern",
+  "version": "1.0.0",
+  "description": "template for creating vector tiles",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleweingart/VectorTilePattern.git"
+  },
+  "keywords": [
+    "vector",
+    "tiles"
+  ],
+  "author": "Kyle Weingart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleweingart/VectorTilePattern/issues"
+  },
+  "homepage": "https://github.com/kyleweingart/VectorTilePattern#readme",
+  "dependencies": {
+    "mapbox-to-ol-style": "^3.4.3",
+    "ol": "^5.2.0",
+    "ol-mapbox-style": "^3.1.0"
+  }
+}
