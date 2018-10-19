@@ -2,10 +2,11 @@
 // i just brought this code in from the /Users/kyleweingart/Documents/working/openlayers-workshop-en/examples/kyle_vectortile
 // tile server is in /Users/kyleweingart/Documents/HVX/mbtiles-server
 // error message saying the import is not recognized - do i need to reference ol in the head of the html?  use require? what do i need to do in order to use the packages? 
+// parcel bundler - ol recommends this - we will see 
 
 console.log("working");
 
-// import 'ol/ol.css';
+// import '../node_modules/ol/ol.css';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import MVT from 'ol/format/MVT';
